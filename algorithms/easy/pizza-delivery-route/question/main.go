@@ -13,8 +13,7 @@ func main() {
 		{42, 15, 8, 23, 4, 16, 35},
 		{1},
 		{},
-		{5, 3, 8, 1, 9, 2},
-	}
+		{5, 3, 8, 1, 9, 2},}
 
 	for i, houses := range testCases {
 		result := OptimizeDeliveryRoute(houses)
